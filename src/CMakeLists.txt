@@ -16,13 +16,10 @@ find_package(OpenSSL REQUIRED)
 include_directories(${OPENSSL_INCLUDE_DIR})
 add_executable(crtgamal
     main.cpp
-    DurationLogger.cpp
     ElGamal_standard.cpp
     ElGamal_vector.cpp
     ElGamal_parallel.cpp
     ECElGamal_parallel.cpp
-    ecelgamal.c
-    crtecelgamal.c
 )
 
 target_link_libraries(crtgamal

@@ -22,11 +22,13 @@ Working on it.
 ## Getting Started
 
 ### Prerequisites
+- A C++ compiler supporting C++17 or later.
+- OpenSSL library (for handling cryptographic operations).
 
 <!-- To compile and run the code, you’ll need:
 
-- A C++ compiler supporting C++17 or later.
-- OpenSSL library (for handling cryptographic operations).
+
+
 - NTL library (for number theory operations). -->
 
 ### Building the Project

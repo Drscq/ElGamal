@@ -12,13 +12,6 @@
 #include "ElGamal_standard.h"
 #include "ElGamal_vector.h"
 #include "ElGamal_parallel.h"
-#include "../../../../../../../usr/include/openssl/ec.h"
-#include "../../../../../../../usr/include/openssl/objects.h"
-// extern "C" {
-//     // #include "crtgamal_standard_encrypt.h"
-//     #include "ecelgamal_standard.h"
-
-// }
 using namespace std::chrono;
 
 void listAllSupportedCurves() {
